@@ -1,18 +1,5 @@
 # udemy-dl for Windows
-A windows utility to download videos from udemy for personal offline use, based on <https://github.com/nishad/udemy-dl>.
-
 For Windows (XP, Vista, 7, 8, 10) 32 & 64 bit
-
-### Download
-
-You can get the latest release from here.  
-https://github.com/nishad/udemy-dl-windows/releases/latest  
-Download `udemy-dl-win-X.X.X.zip`
-
-[![Total downloads](https://img.shields.io/github/downloads/nishad/udemy-dl-windows/total.svg)](https://github.com/nishad/udemy-dl-windows/releases/latest) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b94bce94629e4971ac537660f93345a1)](https://www.codacy.com/app/rimpoche/udemy-dl-windows?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nishad/udemy-dl-windows&amp;utm_campaign=Badge_Grade)
-
-### Version
-**2.1.2** [![Latest version downloads](https://img.shields.io/github/downloads/nishad/udemy-dl-windows/latest/total.svg)](https://github.com/nishad/udemy-dl-windows/releases/latest)
 
 ### Usage
 
@@ -76,23 +63,3 @@ optional arguments:
 -v, --version Display the version of udemy-dl and exit
 ```
 
-
-### Updating
-
-For updating components or to latest development version, run `update.cmd` in the same folder of `udemy-dl.exe` and `curl.exe`
-
-### Support
-
-[![ nishad/udemy-dl-windows at Baikal](https://s3-us-west-2.amazonaws.com/nerpa-static/baikal-banner.svg)](https://baikal.io/nishad/udemy-dl-windows)
-
-[![Baikal](https://baikal.io/badges/nishad/udemy-dl-windows)](https://baikal.io/nishad/udemy-dl-windows)
-
-
-### Downloader 
-By default `udemy-dl.exe` uses `aria2c.exe` to download the video file. If it is missing it will try `curl.exe`, and if both these downloaders are missing it will use built in `wget` function. You can delete `area2c.exe` if it is not working or wants to use `curl.exe`.
-
-### Versioning 
-This tool will use  MINOR and PATCH version of <https://github.com/nishad/udemy-dl>, as MAJOR and MINOR versions, and its own changes as PATCH version. Which will be a dirty approach with <http://semver.org/>.
-
-For example `v 0.2.1` of `udemy-dl` will be used in `v 2.1.X` of `udemy-dl.exe`.
-"# udemy-dl-windows-master" 
